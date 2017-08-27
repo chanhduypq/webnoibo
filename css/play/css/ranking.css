@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  リンク集
+ ---------------------------------------------- */
+#play .ranking table.list th span,
+#play .ranking table.list td span {
+	display: block;
+}
+#play .ranking table.list th,
+#play .ranking table.list th span {
+	font-weight: bold;
+	color: #E60213;
+	text-align: center;
+}
+
+#play .ranking table.list .td-rank {
+	font-weight: bold;
+	color: #E60213;
+	text-align: center;
+	width: 70px;
+}
+
+/* 売上数  */
+#play .ranking table.list .td-sales {
+	width: 130px;
+}
+#play .ranking table.list .td-sales span {
+	text-align: center;
+}
+#play .ranking table.list td.td-iteminfo {
+	font-size: 11px;
+}
+
+/* 商品情報  */
+#play .ranking table.list .td-iteminfo p.title {
+	font-size: 13px;
+}
+#play .ranking table.list .td-iteminfo ul.info {
+	overflow:hidden;
+}
+#play .ranking table.list .td-iteminfo ul.info li {
+	float: left;
+	margin-right: 10px;
+	display:block;
+	white-space:nowrap;
+}
+#play .ranking table.list .td-iteminfo ul.info li.artist {
+	float:none;
+}
+
+#play .ranking table.list .td-iteminfo .title {
+	font-size: 12px;
+}
+
+
+/** 
+ * ナビゲーション
+ **/
+#play .ranking .index ul.genre-navi {
+	position: relative;
+	left: 300px;
+	width: 440px;
+	margin-bottom: 16px;
+	margin-top: -16px;
+}
+#play .ranking .nav-tabs > li > a, 
+#play .ranking .nav-pills > li > a {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-decoration: none;
+}
+#play .ranking .nav-pills > li > a:hover {
+	background-color: #FFECD0;
+}
+#play .ranking .nav-pills > .active > a, 
+#play .ranking .nav-pills > .active > a:hover {
+	color: #ffffff;
+	background-color: #E60213;
+}

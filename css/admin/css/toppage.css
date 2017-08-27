@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =======================================
+	work - toppage
+======================================= */
+
+/*  common 
+----------------------------------------------------------------------------------*/
+
+/*////////// h2 //////////*/
+
+.work .ttl h2 {
+	margin:0;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+/*//////////  box //////////*/
+
+.work .sideL .box, .work .cntC .box {
+	margin:0 0 20px 0;
+	background:#FFF;
+	overflow:hidden;
+	position:relative;
+}
+.work .sideR .box {
+	margin:0 0 20px 0;
+	overflow:hidden;
+	position:relative;
+}
+
+.work .cntC .box .descriptionTxt {
+	margin:10px 10px 8px 10px;
+	padding:10px;
+	background:#F7CFCF;
+	border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */ 
+	font-size:11px;
+}
+
+/*//////////  button //////////*/
+
+.work .sideL .miniBtn { top:20px;	right:58px;}
+.work .cntC .miniBtn { top:12px;	right:10px;}
+
+.hideBtn { display:none;}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*  sideL 
+----------------------------------------------------------------------------------*/
+
+.work .sideL {
+	margin:0 25px 0 0;
+	width:350px;
+	float:left;
+}
+
+/*--- お客様クレーム / トラブル＆不正情報 ---*/
+.work .sideL .claim p,
+.work .sideL .trouble p {
+	margin:0 auto 8px auto;
+	width:330px;
+	font-weight:bold;
+}
+
+
+
+/*////////// title //////////*/
+
+
+.work .sideL .box.topics .ttl /*--- トピックス ---*/ { background-position:0 0;}
+.work .sideL .box.newproduct .ttl /*--- 新商品情報 ---*/ { background-position:0 -45px;}
+.work .sideL .box.inspection .ttl /*--- 機種総評＆検証 ---*/ { background-position:0 -90px;}
+.work .sideL .box.claim .ttl /*--- お客様クレーム ---*/ { background-position:0 -135px;}
+.work .sideL .box.trouble .ttl /*--- トラブル＆不正情報 ---*/ { background-position:0 -180px;}
+.work .sideL .box.rival .ttl /*--- 競合情報 ---*/ { background-position:0 -225px;}
+
+
+/*////////// list //////////*/
+
+.work .sideL .box ul { margin:0 auto 8px auto; width:330px;}
+.work .sideL .box ul li {
+	margin:0 0 5px 0;
+}
+.work .sideL .box ul li span {
+	margin:0 5px 0 0;
+	width:64px;
+	font-weight:bold;
+}
+
+.work .sideL .box.column2 ul /*--- 新商品情報 ---*/ {
+	margin:0 13px 8px 10px;
+	width:217px;
+	float:left;
+}
+.work .sideL .box.column2 img /*--- 新商品情報 ---*/ {
+	margin-right:10px;
+	width:100px;
+	float:right;
+}
+
+/*////////// icon //////////*/
+
+/*--- 機種総評＆検証 アイコン ---*/
+.work .sideL .box ul a.word,
+.work .sideL .box ul a.pdf {
+	margin-right:10px;
+	padding:2px 0 0 25px;
+	height:16px;
+}
+.work .sideL .box ul a.word { background:url(../img/ico_word.gif) no-repeat;}
+.work .sideL .box ul a.pdf { background:url(../img/ico_pdf.gif) no-repeat;}
+
+
+/*////////// button //////////*/
+
+/*--- 一覧を見るボタン ---*/
+.work .sideL .box .listBtn {
+	margin:0 auto;
+	padding:10px 0;
+	width:330px;
+	border-top:1px #CCC dashed;
+	overflow:hidden;
+}
+
+/*--- 一覧を見るボタン ---*/
+.work .sideL .box.twitter .listBtn,
+.work .sideL .box.blog .listBtn {
+	margin:0 auto;
+	padding:0;
+	width:330px;
+	border:0;
+	overflow:hidden;
+}
+
+
+/*////////// box //////////*/
+
+/*--- Twitterキャッチ / ブログキャッチ ---*/
+
+
+
+/*--- ブログキャッチ list ---*/
+.work .sideL .box.blog li p { margin:0 0 10px 0;}
+
+
+/*--- Newgin square 管理メニュー / オススメのリンク ---*/
+.work .sideL .box.portalMenu {
+	background:#FFF;
+	border:2px #666 solid;
+}
+.work .sideL .box.portalMenu h2 {
+	margin:0 0 10px 0;
+	padding:10px 15px;
+	height:15px;
+	background:#666;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+}
+.work .sideL .box.portalMenu ul {}
+.work .sideL .box.portalMenu li {
+	margin:0 0 10px 0;
+	padding:0 0 0 13px;
+	background:url(../../common/img/ico_arrow_small.png) no-repeat 0 3px;
+	line-height:1.4em;
+}
+.work .sideL .box.portalMenu ul.serviceLink li { margin-right:10px; width:140px; float:left;}
+.work .sideL .box.portalMenu ul.serviceLink li:last-child { margin-right:0;}
+
+.work .sideL .box.portalMenu ul.serviceLink li a { text-decoration:underline;}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*  centerBox
+----------------------------------------------------------------------------------*/
+
+.work .cntC {
+	margin:0 25px 0 0;
+	width:384px;
+	float:left;
+}
+
+
+/*////////// message box //////////*/
+
+.work .msgBox h3 {
+	margin-top:0;
+	margin-bottom:5px;
+	color:#D70112;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+/*////////// button //////////*/
+
+/*--- 社長メッセージ ---*/
+.work .msgBox .listBtn {
+	margin:20px 0 0 0;
+	overflow:hidden;
+}
+
+/*////////// title //////////*/
+
+
+
+
+/*////////// list //////////*/
+
+.work .cntC .box ul {
+	margin:0 10px;
+	width:364px;
+}
+.work .cntC .box ul li {
+	margin:0 0 3px 0;
+	padding:5px 0;
+	border-bottom:1px #CCC dashed;
+	overflow:hidden;
+}
+.work .cntC .box ul li span {
+	margin:0 7px 0 0;
+	font-weight:bold;
+}
+.work .cntC .box ul p.count {
+	width:85px;
+	float:right;
+}
+
+/*--- 経営陣(役員)との意見交換箱 list ---*/
+.work .cntC .box.management ul li span {
+	margin:0 5px 0 0;
+	width:64px;
+	font-weight:bold;
+}
+
+/*--- リアルタイム社内報告 list ---*/
+.work .cntC .box.realtime ul li div { float:left;}
+
+
+.work .cntC .box.realtime ul li div p { margin:5px 0 0 0;}
+
+/*--- みんなのアンケートBOX list ---*/
+.work .cntC .box.question ul li div,
+.work .cntC .box.question ul li p { float:left;}
+
+
+
+/*--- 製品アイデア投稿広場 list ---*/
+.work .cntC .box.idea ul { margin:0 0 8px 10px;}
+.work .cntC .box.idea ul li {
+	width:100%;
+	margin:0 0 5px 0;
+	float:left;
+}
+.work .cntC .box.idea ul li p a.threadName {
+	display:block;
+}
+.work .cntC .box.idea ul li div { margin-left:73px;}
+.work .cntC .box.idea ul li div p { margin:0 5px 0 0; float:left;}
+.work .cntC .box.idea ul li div p.comment {
+	margin:0 10px 0 0;
+	width:120px;
+}
+.work .cntC .box.idea ul li p.star {
+	margin:3px 0 0 0;
+	width:60px;
+	height:12px;
+	background:url(../../common/img/evaluate_star.gif) no-repeat 0 0;
+	background-position:-23px 0px;
+}
+
+ /*--- ニューギン目安箱・掲示板 list ---*/
+.work .cntC .box.suggestion ul li a {
+	margin:0 10px 0 0;
+}
+
+/*--- 懸賞金付き募集コンテンツ list ---*/
+.work .cntC .box.prize ul li div { margin-top:3px; margin-left:73px;}
+.work .cntC .box.prize ul li div p.comment {
+	margin:0 10px 0 0;
+	float:left;
+}
+
+
+/*////////// button //////////*/
+
+/*--- 一覧を見るボタン ---*/
+.work .cntC .box .listBtn {
+	margin:0 auto;
+	padding:5px 0 10px 0;
+	width:364px;
+	overflow:hidden;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*  sideR
+----------------------------------------------------------------------------------*/
+
+.work .sideR {
+	width:186px;
+	float:left;
+}
+
+/*////////// title //////////*/
+
+.work .sideR .box .ttl {
+	margin:0;
+	width:186x;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+
+
+
+
+
+
+
+/*////////// button //////////*/
+
+ /*--- 一覧を見るボタン ---*/
+.work .sideR .box .listBtn {
+	margin:0 auto;
+	padding:10px;
+	width:162px;
+	border-top:1px #CB0210 dashed;
+	overflow:hidden;
+}
+
+/*////////// list //////////*/
+
+/*--- dl orenge ---*/
+.work .sideR .box.orange dl { margin:0;}
+.work .sideR .box.orange dl dt {
+	padding:3px;
+	background:#FFDBA6;
+	color:#CB0210;
+	font-weight:bold;
+	text-align:center;
+}
+.work .sideR .box.orange dl dd {
+	margin:0;
+	padding:7px;
+	border-top:1px #CB0210 dashed;
+}
+.work .sideR .box.orange dl dt:first-child+dd { border-top:none;}
+.work .sideR .box.orange dl dd p.area { font-weight:bold;}
+
+/*--- dl pink ---*/
+.work .sideR .box.pink dl { margin:0;}
+.work .sideR .box.pink dl dt {
+	padding:3px;
+	background:#F8CFCF;
+	color:#CB0210;
+	font-weight:bold;
+	text-align:center;
+}
+.work .sideR .box.pink dl dd {
+	margin:0;
+	padding:7px 7px 5px 7px;
+	border-top:1px #CB0210 dashed;
+}
+.work .sideR .box.pink dl dt:first-child+dd { border-top:none; font-weight:normal;}
+
+
+/*--- お祝い list ---*/
+.work .sideR .box.celebrate div {
+	background:#FFF;
+	border:2px #FF6600 solid;
+}
+
+/*--- 今日の社員ピックアップ list ---*/
+.work .sideR .box.pickup li {
+	margin:5px 0;
+	overflow:hidden;
+}
+.work .sideR .box.pickup li div.face {
+	margin:0 10px 0 0;
+	width:70px;
+	background:#FFF;
+	border:1px #CCC solid;
+	text-align:center;
+	float:left;
+}
+.work .sideR .box.pickup li .subttl {
+	margin:5px 0;
+	padding:0 0 5px 0;
+	border-bottom:1px #999 dashed;
+	font-size:12px;
+	font-weight:bold;
+}
+
+/*--- 今週の拠点からのNews! list ---*/
+.work .sideR .box.base-news p {
+	margin:5px 0;
+	width:186px;
+	float:left;
+}
+.work .sideR .box.base-news span { margin:0 10px 0 0; float:left;}
+.work .sideR .box.base-news span.imgBox {
+	margin:0 0 9px 0;
+	width:70px;
+	background:#FFF;
+	border:1px #CCC solid;
+	display:block;
+	text-align:center;
+	clear:both;
+}
+
+/*--- ランキング list ---*/
+.work .sideR .box.ranking div {
+	background:#FFF;
+	border:2px #CB0210 solid;
+}
+.work .sideR .box.ranking dl dd { font-weight:bold; overflow:hidden;}
+.work .sideR .box.ranking dl dd ul { margin:auto 5px auto 0; list-style-type:decimal;}
+.work .sideR .box.ranking dl dd ul li { margin-bottom:5px; overflow:hidden;}
+.work .sideR .box.ranking dl dd ul li span { display:block; line-height:1.2;}
+.work .sideR .box.ranking dl dd ul li span.number { width:20px; float:left;}
+.work .sideR .box.ranking dl dd ul li p.text { width:140px; float:left;}
+
+
+.work .sideR .box.map a {
+	width:186px;
+	height:164px;
+	display:block;
+}
+
+/*--- 人事からのお知らせ list ---*/
+.work .sideR .box.jinji div {
+	background:#FFF;
+	border:2px #666 solid;
+}
+
+
+/*--- 教えて総務さん！FAQ list ---*/
+.work .sideR .box.faq ul { margin:5px 0;}
+.work .sideR .box.faq li {
+	padding:0 10px 10px 13px;
+	background:url(../../common/img/ico_arrow_small.png) no-repeat 0 5px;
+	line-height:1.4em;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/

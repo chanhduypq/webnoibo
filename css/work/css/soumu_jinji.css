@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  総務からのお知らせ：人事情報
+ ---------------------------------------------- */
+
+#work .wrap.soumu_jinji table .td-date { width:100px;}
+#work .wrap.soumu_jinji table .td-type { width:36px;}
+#work .wrap.soumu_jinji table .td-name { width:114px;}
+#work .wrap.soumu_jinji table .td-text { width:470px;}
+
+

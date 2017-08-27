@@ -1,0 +1,489 @@
+﻿.vc{
+	background:url(../images/vc.png) no-repeat top;
+	width:182px;
+	height:53px; 
+	float:left
+}
+.vc:hover,.vc.active{
+	background:url(../images/vc.png) no-repeat bottom;
+	width:182px;
+	height:53px; 
+	float:left
+}
+.cv{
+	background:url(../images/cv.png) no-repeat top;
+	width:182px;
+	height:53px; 
+	float:left
+}
+.cv:hover,.cv.active{
+	background:url(../images/cv.png) no-repeat bottom;
+	width:182px;
+	height:53px; 
+	float:left
+}
+
+a{line-height:17px}
+a:hover, a:visited{
+	opacity:0.9;
+	text-decoration:underline;
+}
+
+.tab_work{
+	background:#fff;
+	box-shadow:0 0 3px #999;
+	width:980px;
+	margin:0 auto
+}
+.news{
+	padding:5px;
+}
+.news h2{
+	background:url(../images/news_h2.png) no-repeat;
+	width:970px;
+	height:41px;
+	margin-top:-3px;
+	font:700 20px/44px arial;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	text-transform:uppercase;
+	padding-left:60px;
+}
+.news h3{
+	font:20px arial;
+	color:#1465bc;
+	background:url(../images/news_h3.png) repeat-x bottom;
+	padding-bottom:5px;
+	margin:10px 0 0 0;
+}
+.news h3 span{
+	color:#ff1b23;
+}
+.news .title{
+	position:relative;
+}
+.news .title .bt{
+	position:absolute;
+	right:0;
+	bottom:7px;
+}
+.viewmore_green{
+	background:url(../images/viewmore_green.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:left;
+}
+.viewmore1{
+	background:url(../images/viewmore1.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin:7px 0;
+}
+.viewmore2{
+	background:url(../images/viewmore2.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin:7px 0;
+}
+.viewmore3{
+	background:url(../images/viewmore3.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin:7px 0;
+}
+.viewmore4{
+	background:url(../images/viewmore4.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin:7px 0;
+}
+.viewmore5{
+	background:url(../images/viewmore5.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin:7px 0;
+}
+.viewmore6{
+	background:url(../images/viewmore6.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin:7px 0;
+}
+a.unread{
+	background:#4f7119;
+	color:#fff;
+	font:11px Tahoma;
+	padding:2px 5px;
+	border-radius:2px;
+	margin:0 0 0 5px;
+}
+.news_est li{
+	border-bottom:dashed 1px #cecece;
+	padding:10px 0;
+        height: 100px;
+}
+.news_est li.last{
+	border-bottom: none;
+}
+.news_est li img{
+	width:132px;
+	height:83px;
+	border:solid 1px #c4c4c4;
+	padding:1px;
+	float:left;
+	margin-right:10px;
+}
+.news_est li a{
+	font:700 13px arial;
+	color:#171717;
+}
+.news_est li em{
+	color:#868686;
+}
+.news_est li p{
+	padding:5px 0;
+	line-height:17px;
+}
+.post{
+	background:url(../images/bt_dangtai.png) no-repeat;
+	width:79px;
+	height:18px;
+	float:right;
+	margin-left:5px;
+}
+.notes{
+	background:#e7e7e7;
+	width:98%;
+	padding:7px 1%;
+	color:#5d5d5d;
+	font:12px arial;
+	font-style:italic;
+	text-align:center;
+	margin:5px 0;
+	border-radius:5px;
+}
+.n_group{
+	width:90px;
+	font:11px/18px Tahoma;
+	color:#fff;
+	border-radius:3px;
+	text-align:center;
+	height:21px;
+	overflow:hidden;
+	float:left;
+}
+.cl1{
+	background:#6461ac;
+}
+.cl2{
+	background:#f1592d;
+}
+.cl3{
+	background:#ff9c00;
+}
+.cl4{
+	background:#99c83c;
+}
+.cl5{
+	background:#42c0b6;
+}
+.cl6{
+	background:#0095d4;
+}
+.cl7{
+	background:#ff4266;
+}
+.cl8{
+	background:#a1790d;
+}
+.cl9{
+	background:#f42a2a;
+}
+.cl10{
+	background:#a1a1a1;
+}
+.cl11{
+	background:#c6595e;
+}
+.notice{
+	float:left;
+}
+.notice ul{
+	width:49%;
+	float:left;
+	margin-right:1%;
+}
+.notice li{
+	border-bottom:dashed 1px #cecece;
+	padding:10px 0;
+	float:left;
+}
+.notice span{
+	font:12px arial;
+	color:#757575;
+	font-style:italic;
+	float:left;
+	margin:0 10px;
+}
+.notice a{
+	width:300px;
+	color:#171717;
+	display:block;
+	float:right;
+	font-weight:bold;
+}
+.all_box{
+	float:left; 
+	width:980px;
+}
+.col_left{
+	width:480px;
+	float:left
+}
+.col_right{
+	width:480px;
+	float:right;
+}
+.box{
+	float:left;
+	margin-top:10px;
+}
+.box ul{
+	padding:0 9px;
+	border:solid 1px #d8d8d8;
+	float:left
+}
+.box li{
+	border-bottom:dashed 1px #cecece;
+	padding:7px 0;
+	float:left;
+	width:100%;
+}
+.box li.last{
+	border-bottom:none;
+}
+.box li span{
+	float:left;
+	line-height:17px;
+}
+.box li a{
+	float: right;
+	color:#171717;
+}
+.w80{width:80px;}
+.w380{ width:380px}
+.w350{ width:350px}
+.w280{ width:280px}
+.textcl1{color:#b95e06}
+.textcl2{color:#404672}
+.textcl3{color:#005d8d}
+.textcl4{color:#7d7d7d}
+.textcl5{color:#786500}
+.h2_emailbox{
+	background:url(../images/h2_homthugopy.png) no-repeat;
+	font:700 17px/52px arial;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	height:54px;
+	padding-left:65px;
+	margin-bottom:-9px;
+	z-index:999;
+	position:relative
+}
+.h2_vbqd{
+	background:url(../images/h2_cacvb.png) no-repeat;
+	font:700 17px/52px arial;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	height:54px;
+	padding-left:65px;
+	margin-bottom:-9px;
+	z-index:999;
+	position:relative
+}
+.h2_ytuong{
+	background:url(../images/h2_ytuong.png) no-repeat;
+	font:700 17px/52px arial;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	height:54px;
+	padding-left:53px;
+	margin-bottom:-9px;
+	z-index:999;
+	position:relative
+}
+.h2_chdt{
+	background:url(../images/h2_cauhoi.png) no-repeat;
+	font:700 17px/52px arial;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	height:54px;
+	padding-left:60px;
+	margin-bottom:-9px;
+	z-index:999;
+	position:relative
+}
+.h2_dtht{
+	background:url(../images/h2_doanhthu.png) no-repeat;
+	font:700 17px/52px arial;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	height:54px;
+	padding-left:52px;
+	margin-bottom:-9px;
+	z-index:999;
+	position:relative
+}
+.h2_itcontest{
+	background:url(../images/h2_itcontest.png) no-repeat;
+	font:700 17px/52px arial;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:1px 1px 1px #000;
+	height:54px;
+	padding-left:60px;
+	margin-bottom:-9px;
+	z-index:999;
+	position:relative
+}
+.bl{
+	padding:5px 0 0 80px;
+	float:left;
+}
+.bl p{margin-right:30px; float:left;}
+.bl a{
+	color:#005d8d;
+	margin-left:5px;
+	float:left;
+	font-weight:bold !important;
+}
+.star {
+    background: url(../images/evaluate_star.gif) no-repeat -23px 0;
+    height: 12px;
+    margin: 3px 0 0;
+    width: 60px;
+    margin-left:5px;
+}
+.star.star0 {
+    background-position: -58px 0 !important;
+	
+}
+.ml10{margin-left:10px;}
+.bt_dangtai{
+	background:url(../images/bt_dangtai.png) no-repeat;
+	width:75px;
+	height:18px;
+	float:right;
+	margin:17px 8px 0 0;
+}
+.news .bt_dangtai1{
+	background:url(../images/bt_dangtai.png) no-repeat;
+	width:75px;
+	height:18px;
+	float:right;
+        margin-right: 70px;
+        margin-top: 15px;
+}
+.from_hr{
+	border:solid 1px #f79a0d;
+	border-radius:7px;
+	width:470px;
+	float:right;
+	margin-top:15px;
+}
+.from_hr h2{
+	background:#f79a0d;
+	padding-left:80px;
+	font:18px/38px arial;
+	color:#fff;
+	height:40px;
+	border-radius:6px 6px 0 0;
+	position:relative;
+}
+.from_hr h2 span{
+	background:url(../images/ic0_fromhr.png) no-repeat;
+	height:61px;
+	width:61px;
+	position:absolute;
+	left:10px;
+	top:-10px;
+}
+.bg_yellow,.bg_yellow a{
+	background:#fde1b6;
+	color:#955e0c;
+	font:700 12px arial;
+	font-style:normal;
+	text-align:center;
+	text-transform:uppercase
+}
+.bg_yellow .link{
+	margin:0 25px;
+	text-align:left;
+	text-transform:none
+}
+.bg_yellow .bt{
+	background:url(../images/viewmore1.png) no-repeat;
+	width:88px;
+	height:18px;
+	float:right;
+	margin-top:-2px;
+}
+.sendemail{
+	border:solid 1px #07846d;
+	background:#9bd8c0;
+	border-radius:7px;
+	width:470px;
+	float:right;
+	margin-top:15px;
+}
+.sendemail div{
+	padding:15px;
+}
+.sendemail h2{
+	background:#07846d;
+	padding-left:80px;
+	font:18px/38px arial;
+	color:#fff;
+	height:40px;
+	border-radius:6px 6px 0 0;
+	position:relative;
+}
+.sendemail h2 span{
+	background:url(../images/ic0_sendemail.png) no-repeat;
+	height:61px;
+	width:61px;
+	position:absolute;
+	left:10px;
+	top:-10px;
+}
+.sendemail p{
+	font-style:italic;
+	text-align:right;
+	margin:0 10px 10px 0;
+	
+}
+.sendemail input, .sendemail textarea{
+	border: none;
+	background:#fff;
+	width:97%;
+	padding:5px;
+	margin-bottom:10px;
+}
+.bt_send{
+	background:url(../images/bt_send.png) no-repeat;
+	width:65px;
+	height:31px;
+	float:left;
+	margin-bottom:20px;
+}

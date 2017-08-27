@@ -1,0 +1,45 @@
+host: smile.runsystem.biz
+ssh: runsmile/suZ4BXDgJm
+DB: runsmile/suZ4BXDgJm
+PHP MySQL: http://vct211-125-85-208.vps.rentalserver.jp:10080/c106c2376d/phpmyadmin/
+auth : smile/d9uwC5HSxS
+
+
+host  :  newgin-square.kir.jp
+ account  :  newgin-square..runsystem
+ pass    :  M02Y0bvFd7
+
+
+CR花の慶次
+ニューギン
+刃牙
+サムライチャンプルー
+CR信長の野望
+株式会社EXCITE
+CR天誅
+CR丹下左膳
+
+svn update file:///var/www/svn/intraportal /var/www/intraportal
+
+java 
+dotnet 
+php
+
+458756831339233281
+455822350252929024
+
+458756831339233281
+455822350252929024
+
+458756831339233281
+455822350252929024
+
+4.605687900575E+17
+4.5793085516011E+17
+
+4.605687900575E+17
+4.5793085516011E+17
+
+4.605687900575E+17
+4.6045993625887E+17
+
