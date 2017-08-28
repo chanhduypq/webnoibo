@@ -2,7 +2,7 @@
 
 class Config_database{
     const HOST_DATA = 'localhost';
-    const DB_NAME = 'web_noibo';
+    const DB_NAME = 'webnoibo';
     const LOGIN_DATA = 'root';
     const PASS_DATA = '';
 //    const HOST_DATA = 'localhost';
